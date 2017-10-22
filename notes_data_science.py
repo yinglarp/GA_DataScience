@@ -41,6 +41,14 @@ K-Means clustering (no labels, unsupervised learning)
 
 Similarity measures= Euclidean distance, Jaccard Coefficient, Cosine Similarity
 
-Differences between K-Means(Based on distance to cluster) and DBSCAN (Based on frequencies using density instead of Distance to cluster) 
+Differences between K-Means(Based on distance to cluster) and DBSCAN (Based on frequencies using density instead of Distance to cluster
 
 For text mining, need to perform vectorization to convert text to numeric vector form and then possible to do clustering based on the above. Another example is to cluster customers loyality based on several features.. Perform PCA to project these features into a 2D pane and do clustering.
+
+Technology stack: Spark, Hadoop, MapReduce, elastic search, hive
+Applications: Analyze technical logs to prevent false alerts (false positive) by flagging them out and build rules around it, Phishing website/attacks, financial crimes (AML).
+Thoughts: Understanding and decomposing the problem is key, not everything is a data science problem. Applying the right tools with the right approach will be key rather than applying Machine Learning techniques on a visualization problem.
+
+Whereas a traditional data analyst may look only at data from a single source – a CRM system, for example – a data scientist will most likely explore and examine data from multiple disparate sources. The data scientist will sift through all incoming data with the goal of discovering a previously hidden insight, which in turn can provide a competitive advantage or address a pressing business problem. A data scientist does not simply collect and report on data, but also looks at it from many angles, determines what it means, then recommends ways to apply the data.
+
+Data scientists are inquisitive: exploring, asking questions, doing “what if” analysis, questioning existing assumptions and processes
